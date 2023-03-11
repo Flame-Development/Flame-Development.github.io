@@ -1,14 +1,89 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>This is the title of the webpage!</title>
+    <title>Flame-Development | Minecraft Nether Theme</title>
+    <style>
+      body {
+        background-color: #3a3a3a;
+        font-family: Arial, sans-serif;
+      }
+
+      #header {
+        background-color: #e60000;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        font-size: 36px;
+        font-weight: bold;
+      }
+
+      #container {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .card {
+        margin: 20px;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        width: 200px;
+        height: 250px;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      .card h3 {
+        font-size: 24px;
+        margin-top: 0;
+      }
+
+      .card p {
+        font-size: 16px;
+        color: #666;
+      }
+
+      .card img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 10px;
+      }
+    </style>
   </head>
   <body>
-    <style>
-body {
-  background-image: url('https://s2.uupload.ir/files/nether_j51o.png');
-}
-</style>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+    <div id="header">
+      Flame-Development
+    </div>
+    <div id="container">
+      <div class="card">
+        <h3>About Us</h3>
+        <img src="https://i.imgur.com/3sFm4W4.png" alt="Nether Fortress">
+        <p>
+          Flame-Development is a Minecraft development team that creates mods, plugins, and more for the Minecraft community.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Our Projects</h3>
+        <img src="https://i.imgur.com/vPzLYvG.png" alt="Nether Portal">
+        <p>
+          Check out our latest projects, including custom Minecraft mods and plugins that we've developed for servers and players.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Contact Us</h3>
+        <img src="https://i.imgur.com/7yMLm1M.png" alt="Nether Wart">
+        <p>
+          Want to get in touch with us? Shoot us an email at contact@flame-dev.com or follow us on Twitter at @flamedevteam.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
