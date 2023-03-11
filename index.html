@@ -1,88 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Flame-Development</title>
-	<style type="text/css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Minecraft&display=swap">
+	<style>
 		body {
-			background-color: #1a1a1a;
-			font-family: Arial, sans-serif;
+			background-image: url("https://i.imgur.com/1rGpOwz.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			font-family: 'Minecraft', sans-serif;
 		}
+
 		h1 {
-			color: #ff6100;
+			font-size: 5em;
+			margin-top: 0;
 			text-align: center;
-			font-size: 4em;
-			margin-top: 2em;
+			text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
+			color: #FF5800;
 		}
+
 		.container {
-			max-width: 800px;
-			margin: 0 auto;
 			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
+			flex-direction: column;
 			align-items: center;
-			margin-top: 2em;
+			justify-content: center;
+			height: 100vh;
 		}
-		.card {
-			background-color: #232323;
-			border-radius: 10px;
-			margin: 1em;
-			padding: 1em;
-			width: 250px;
-			text-align: center;
-			box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-			transition: transform 0.3s;
-		}
-		.card:hover {
-			transform: scale(1.05);
-		}
-		.card img {
-			height: 150px;
-			margin-bottom: 1em;
-		}
-		.card h2 {
-			color: #ff6100;
+
+		.text {
 			font-size: 2em;
-			margin-bottom: 0.5em;
+			color: #FFF;
+			text-shadow: 1px 1px 0 #000;
+			margin: 0;
 		}
-		.card p {
-			color: #fff;
-			font-size: 1.2em;
-			line-height: 1.5;
-		}
-		.card a {
-			display: block;
-			color: #fff;
-			font-size: 1.2em;
-			margin-top: 1em;
-			text-decoration: none;
-			transition: color 0.3s;
-		}
-		.card a:hover {
-			color: #ff6100;
+
+		.logo {
+			width: 200px;
+			height: 200px;
+			margin-bottom: 20px;
 		}
 	</style>
 </head>
 <body>
-	<h1>Flame-Development</h1>
 	<div class="container">
-		<div class="card">
-			<img src="https://i.imgur.com/71zE1YC.png" alt="Flame-Development logo">
-			<h2>About Us</h2>
-			<p>We are a team of passionate developers who specialize in Minecraft plugins and mods.</p>
-			<a href="#">Learn more</a>
-		</div>
-		<div class="card">
-			<img src="https://i.imgur.com/XiP5B6P.png" alt="Minecraft Nether">
-			<h2>Minecraft Nether</h2>
-			<p>Explore the fiery depths of the Minecraft Nether with our custom mod pack.</p>
-			<a href="#">Download now</a>
-		</div>
-		<div class="card">
-			<img src="https://i.imgur.com/GWdZoXd.png" alt="Contact Us">
-			<h2>Contact Us</h2>
-			<p>Have a question or need support? Contact us and we'll get back to you as soon as possible.</p>
-			<a href="#">Get in touch</a>
-		</div>
+		<img class="logo" src="https://i.imgur.com/xG1tFmV.png">
+		<h1>Flame-Development</h1>
+		<p class="text">We build software that ignites the world!</p>
 	</div>
 </body>
 </html>
